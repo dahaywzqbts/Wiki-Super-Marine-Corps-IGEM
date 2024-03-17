@@ -1,0 +1,78 @@
+
+
+/* Block of code used for Modal fade in  */
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
+.fade-scale {
+	transform: scale(0);					/* resize the modal box */
+	opacity: 0;								/* change the opacity of the background */
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+	.fade-scale.in {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+.modal-body{
+	position: relative;
+	overflow-y: auto;
+	max-height: 400px;
+	padding: 15px;
+}
+.autoModal.modal .modal-body{
+	max-height: 100%;
+}
+
+
+/* Css for formatting the paragraph below the header image */
+.header-container {
+	position: relative;
+	text-align: center;
+	font-size: 90px;
+	color: black;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.brief-intro {
+	font-size: 15px;
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	position: relative;
+}
+
+	.brief-intro::after {
+		/*I think this is essentially making an empty box*/
+		background-color: white;
+		bottom: 0;
+		content: '';
+		display: block;
+		height: 10px;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, 0);
+		width: 200px;
+		/*border for the empty box*/
+		border-bottom: 3px solid black;
+	}
+
+
+/* background things*/
+/*.main-header {
+	background-color: rgba(0,0,0, -6);
+	color: white;
+	background-image: url(../assets/images/Group.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom: 5px;
+	padding-bottom: 40px;
+	width: 100%;
+	height: auto;
+}*/

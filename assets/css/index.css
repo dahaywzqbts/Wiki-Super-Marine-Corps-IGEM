@@ -1,0 +1,55 @@
+﻿/*
+    Styling for Home page 
+*/
+.header-container {
+    position: relative;
+    text-align: center;
+    font-size: 90px;
+    color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: arial, "Times New Roman";
+    color: rgb(0, 0, 0);
+}
+
+.School_centered {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: arial, "Times New Roman";
+    color: rgb(0,0,0);
+    font-size: 30px;
+    margin: 0px;
+}
+
+.text-container{
+    /*
+    padding: 20px 200px 0 200px;
+    */
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: left;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+.hr {
+    border: 1px solid black;
+}
